@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Tres Imágenes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #aceafa;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 30%;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cuadros refentes a la investigacion</h1>
+    <div class="image-container">
+        <img src="1.jpg" alt="Imagen 1">
+        <img src="2.jpg" alt="Imagen 2">
+        <img src="3.jpg" alt="Imagen 3">
+    </div>
+
+    <!-- Botón que redirige a otra página -->
+    <button onclick="window.location.href='formulario1.html';">registro</button>
+</body>
+</html>
